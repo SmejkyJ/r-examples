@@ -2,7 +2,8 @@
 # R - Doučko
 
 ## Deklarace proměnných a přiřazování hodnot
-```R
+```r
+# příklad deklarace
 a = 5
 a <- 5
 5 -> a
