@@ -192,4 +192,50 @@ print(list[[2]]$options[[3]]$correct) # vypíše FALSE
 
 print(list[[2]]$options[[1]]$text)  # vypíše 6+2x
 ```
+___
+## Podmíky
+*Používáme je, aby se program mohl rozhodnout na základně nějakých informací*
+Je tu několik znamének:
+- =
+- <
+- >
+- <=
+- >=
+- !=
+```r
+# dejme tomu že chceme spočítat obvod čtverce
+# o = 4a
+# Ale co když bude a záporné, potom výjde blbost, proto dáme podmínku, že a musí být kladné nebo 0
 
+a <- 2.6
+
+if (a >= 0) {
+  print(4*a)
+} else {
+  print("a je záporné")
+}
+```
+```r
+# dejme tomu že chceme spočítat obvod čtverce
+# o = 4a
+# Ale co když bude a záporné, potom výjde blbost, proto dáme podmínku, že a musí být kladné
+
+a <- 2.6
+
+if (a > 0) {
+  print(4*a)
+} else {
+  print("a je záporné")
+}
+```
+
+
+___
+## Cykly
+*Jsou velmi potřebné, zvláště, když pracujeme s pokročilejšími datovými typy viz. [Pokročilé datové typy](#Pokročilé-datové-typy)*
+*Máme dva typy cyklů a to:*
+- while loop
+- for loop
+
+### while loop
+### for loop
