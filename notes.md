@@ -240,9 +240,9 @@ if (b != 0) {
 
 a <- 7
 if (a %% 2 == 0) {
-  print("a je sudé")
+  print(paste(a,"je sudé"))
 } else {
-  print("a je liché")
+  print(paste(a,"je liché"))
 }
 ```
 ```r
@@ -251,9 +251,9 @@ if (a %% 2 == 0) {
 
 a = 12 # to je to co zadal ten uživatel
 if (a >= 0 && a <= 10) {
-  print("Číslo je v rozsahu")
+  print(paste(a,"je v rozsahu 0-10"))
 } else {
-  print("Číslo je mimo rozsah")
+  print(paste(a,"je mimo rozsah 0-10"))
 }
 ```
 
@@ -263,11 +263,11 @@ if (a >= 0 && a <= 10) {
 prvek <- list(nazev="kyslík", skupenstvi="plynné")
 
 if (prvek$skupenstvi == "pevné") {
-  print(paste(prvek$nazev, "je skladováno v boxu"))
+  print(paste(prvek$nazev, "je skladován v boxu"))
 } else if (prvek$skupenstvi == "plynné") {
-  print(paste(prvek$nazev, "je skladováno v bombě"))
+  print(paste(prvek$nazev, "je skladován v bombě"))
 } else if (prvek$skupenstvi == "kapalné") {
-  print(paste(prvek$nazev, "je skladováno v nádobě"))
+  print(paste(prvek$nazev, "je skladován v nádobě"))
 } else {
   print("Plazmu nikde neskladujeme")
 }
