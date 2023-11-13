@@ -43,7 +43,8 @@ my_value <- "jablko"
 ___
 ## Pokročilé datové typy
 *Toto je potřeba alespoň trochu pochytit, velice důležité na komplexnější problémy*
-- vector - vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců
+### vector
+*je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
 ```r
 # příklad deklarace
 
