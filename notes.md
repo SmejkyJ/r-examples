@@ -45,9 +45,16 @@ ___
 *Toto je potřeba alespoň trochu pochytit, velice důležité na komplexnější problémy*
 - vector - vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců
 ```r
-# příklad deklarace přepsání a čtění vektoru
+# příklad deklarace
 
-my_vector = 
+my_vector <- c(5, 3, 8, 12, 7)
+```
+*proměnná my_vector obsahuje vektor s hodnoty 5,3,8,12 a 7*
+```r
+# příklad vyčítání, předpokládejme předchozí deklaraci
+
+print(my_vector[1])  # vypíše 5 (protože 5 je na 1. pozici ve vektoru)
+print(my_vector[3])  # vypíše 8 (protože 8 je na 3. pozici ve vektoru)
 ```
 - matrix
 - array
