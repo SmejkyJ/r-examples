@@ -222,29 +222,54 @@ ___
 *Používáme je, aby se program mohl rozhodnout na základně nějakých informací*
 
 ```r
-# dejme tomu že chceme spočítat obvod čtverce
-# o = 4a
-# Ale co když bude a záporné, potom výjde blbost, proto dáme podmínku, že a musí být kladné nebo 0
+# Chceme dělit dvě čísla, ale nevíme, zda by se ve jmenovateli nemohla vyskytnout 0
+# proto zavedeme podmínku, kterou to ošetříme
 
-a <- 2.6
+a <- 5
+b <- 0
 
-if (a >= 0) {
-  print(4*a)
+if (b != 0) {
+  print(a/b)
 } else {
-  print("a je záporné")
+  print("Dělení nulou")
 }
 ```
 ```r
-# dejme tomu že chceme spočítat obvod čtverce
-# o = 4a
-# Ale co když bude a záporné, potom výjde blbost, proto dáme podmínku, že a musí být kladné
+# Chceme vědět, jestli je a sudé
+# tedy zavedeme podmínku:
 
-a <- 2.6
-
-if (a > 0) {
-  print(4*a)
+a <- 7
+if (a %% 2 == 0) {
+  print("a je sudé")
 } else {
-  print("a je záporné")
+  print("a je liché")
+}
+```
+```r
+# Máme číslo, které je zadávané uživatelem a chceme ho udržet v nějakých mezích
+# tedy zavedeme podmínku pro udělání rozsahu 0-10:
+
+a = 12 # to je to co zadal ten uživatel
+if (a >= 0 && a <= 10) {
+  print("Číslo je v rozsahu")
+} else {
+  print("Číslo je mimo rozsah")
+}
+```
+
+```r
+# Další příklad:
+
+prvek <- list(nazev="kyslík", skupenstvi="plynné")
+
+if (prvek$skupenstvi == "pevné") {
+  print(paste(prvek$nazev, "je skladováno v boxu"))
+} else if (prvek$skupenstvi == "plynné") {
+  print(paste(prvek$nazev, "je skladováno v bombě"))
+} else if (prvek$skupenstvi == "kapalné") {
+  print(paste(prvek$nazev, "je skladováno v nádobě"))
+} else {
+  print("Plazmu nikde neskladujeme")
 }
 ```
 
