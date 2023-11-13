@@ -9,6 +9,7 @@ a <- 5
 5 -> a
 ```
 *Zde zavádíme novou proměnnou a s hodnotou 5. Všechny 3 řádky dělají stejnou věc, jde pouze o způsob zápisu*
+
 Je hned několik datových typů:
 - string - je textový řetězec
 - int - je číslo
@@ -17,7 +18,7 @@ Je hned několik datových typů:
 # příklad datových typů
 a <- "Ahoj"    # string
 a <- 189       # int
-5 <- FALSE     # bool
+a <- FALSE     # bool
 ```
 ___
 
