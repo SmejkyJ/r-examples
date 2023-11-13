@@ -1,6 +1,20 @@
 
 # R - Doučko
 
+## Operátory
+### Aritmetické operátory
+### Relační operátory
+```r
+=    #- rovná se 
+<    #- menší než
+>    #- vetší než
+<=   #- menší nebo rovná se
+>=   #- větší nebo rovná se
+!=   #- nerovná se
+```
+### Logické operátory
+
+
 ## Deklarace proměnných
 ```r
 # příklad deklarace
@@ -195,13 +209,7 @@ print(list[[2]]$options[[1]]$text)  # vypíše 6+2x
 ___
 ## Podmíky
 *Používáme je, aby se program mohl rozhodnout na základně nějakých informací*
-Je tu několik znamének:
-- =
-- <
-- >
-- <=
-- >=
-- !=
+
 ```r
 # dejme tomu že chceme spočítat obvod čtverce
 # o = 4a
