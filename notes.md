@@ -50,7 +50,6 @@ ___
 
 my_vector <- c(5, 3, 8, 12, 7)
 ```
-*proměnná my_vector obsahuje vektor s hodnoty 5,3,8,12 a 7*
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
 
