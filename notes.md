@@ -132,13 +132,18 @@ my_list <- list(firstName = "Josef", lastName = "Krátký", age=53, height=172)
 ```
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
+
 print(my_list$firstName)  # vypíše Josef
 print(my_list$age)        # vypíše 53
+
 # další způsob vyčítání
+
 print(my_list[["firstName"]]) # vypíše Josef
 print(my_list[["age"]])        # vypíše 53
+
 # u tohoto způsobu vyřítání však můžeme využít i vyčítání pomocí pozice
 # (přistupuj k tomu jako kdyby to byl vektor, způsob je stejný, akorát se to jinak zapisuje)
+
 print(my_list[[1]])  # vypíše Josef  (protože Josef je napsané v listu na 1. pozici)
 print(my_list[[3]])  # vypíše 53     (protože 53 je napsané v listu na 3. pozici)
 ```
@@ -146,7 +151,7 @@ print(my_list[[3]])  # vypíše 53     (protože 53 je napsané v listu na 3. po
 # příklad editace, předpokládejme předchozí deklaraci
 
 print(my_list$firstName)    # vypíše Josef
-my_list$firstName <- Jirka  # zapíše do firstName Jirka
+my_list$firstName <- "Jirka"  # zapíše do firstName Jirka
 print(my_list$firstName)    # vypíše Jirka
 ```
 
