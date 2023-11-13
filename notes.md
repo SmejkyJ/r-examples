@@ -67,16 +67,24 @@ print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 *matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
 ```r
 # příklad deklarace
-# příkazem matrix(vector, nrow = cislo_radku, ncol = cislo_sloupcu)
-my_matrix <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3)
+# příkazem matrix(vector, nrow = cislo_radku, ncol = cislo_sloupcu, byrow = bool)
+# byrow je způsob ládování zadaného vektoru do této matice
+my_matrix1 <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3, byrow = FALSE)
+my_matrix2 <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3, byrow = TRUE)
 ```
 ```r
-# Udělá tuto matici:
-1  5  9
-2  6 10
-3  7 11
-4  8 12
+# Udělá tyto matice:
+# my_matrix1:
+1   5   9
+2   6   10
+3   7   11
+4   8   12
 
+# my_matrix2:
+1   2   3
+4   5   6
+7   8   9
+10  11  12
 ```
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
