@@ -4,6 +4,7 @@
 ## Deklarace proměnných
 ```r
 # příklad deklarace
+
 a = 5
 a <- 5
 5 -> a
@@ -18,9 +19,10 @@ ___
 - bool - je dvoustavová proměnná (tedy buď TRUE nebo FALSE)
 ```r
 # příklad datových typů
+
 a <- "Ahoj"    # string
 a <- 189       # int
-a <- 3.1459    # int
+a <- 3.1459    # float
 a <- FALSE     # bool
 ```
 ___
