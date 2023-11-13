@@ -3,9 +3,17 @@
 
 ## Operátory
 ### Aritmetické operátory
+```r
++    #- plus
+-    #- mínus
+*    #- krát
+/    #- děleno
+%%   #- zbytek po dělení
+^    #- mocnina
+```
 ### Relační operátory
 ```r
-=    #- rovná se 
+==   #- rovná se 
 <    #- menší než
 >    #- vetší než
 <=   #- menší nebo rovná se
@@ -13,7 +21,10 @@
 !=   #- nerovná se
 ```
 ### Logické operátory
-
+```r
+&    #- AND 
+|    #- OR
+```
 
 ## Deklarace proměnných
 ```r
