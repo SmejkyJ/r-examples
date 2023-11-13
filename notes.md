@@ -47,7 +47,7 @@ ___
 *vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
 ```r
 # příklad deklarace
-
+# příkazem c()
 my_vector <- c(5, 3, 8, 12, 7)
 ```
 ```r
@@ -64,11 +64,19 @@ my_vektor[4] = 18    # zapíše na 4. pozici ve vektoru 18
 print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 ```
 ### matrix
-*vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
+*matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
 ```r
 # příklad deklarace
+# příkazem matrix(vector, nrow = cislo_radku, ncol = cislo_sloupcu)
+my_matrix <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3)
+```
+```r
+# Udělá tuto matici:
+1  5  9
+2  6 10
+3  7 11
+4  8 12
 
-my_vector <- c(5, 3, 8, 12, 7)
 ```
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
