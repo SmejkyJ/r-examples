@@ -2,7 +2,7 @@
 # R - Doučko
 
 ## Deklarace proměnných a přiřazování hodnot
-```r
+```R
 a = 5
 a <- 5
 5 -> a
