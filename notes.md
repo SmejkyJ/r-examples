@@ -114,10 +114,38 @@ print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 
 *Možná to podle popisu nezní jako věc co by se ti mohla hodit, ale je to užitečné*
 
-*Zatím se mi to ale nechce popisovat, takže kdyžtak dopíšu později, když bude potřeba. Ono to je totiž docela komplexní*
+*Zatím se mi to ale nechce popisovat, takže kdyžtak dopíšu později, když bude potřeba. Ono to je totiž už docela složité*
 
 ### list
 *list se ti bude zaručeně hodit, umožňuje identifikovat prvky v něm pomocí slov a né pouze podle souřadnic, jako to bylo u předchozích pokročilejších datových typů*
 
 *Může obsahovat více datových typů najednou*
+
+*Lze kombinovat s dalšími pokrožilejšími datovými typy*
+
+```r
+# příklad deklarace
+
+# příkazem list()
+
+my_list <- list(firstName = "Josef", lastName = "Krátký", age=53, height=172)
+```
+```r
+# příklad vyčítání, předpokládejme předchozí deklaraci
+print(my_list$firstName)  # vypíše Josef
+print(my_list$age)        # vypíše 53
+# další způsob vyčítání
+print(my_list[["firstName"]]) # vypíše Josef
+print(my_list[["age]])        # vypíše 53
+# u tohoto způsobu vyřítání však můžeme využít i vyčítání pomocí pozice (přistupuj k tomu jako kdyby to byl vektor, způsob je stejný, akorát se to jinak zapisuje)
+print(my_list[[1]])  # vypíše Josef  (protože Josef je napsané v listu na 1. pozici)
+print(my_list[[3]])  # vypíše 53     (protože 53 je napsané v listu na 3. pozici)
+```
+```r
+# příklad editace, předpokládejme předchozí deklaraci
+
+print(my_vector[4])  # vypíše 12 (protože 12 je na 4. pozici ve vektoru)
+my_vektor[4] <- 18   # zapíše na 4. pozici ve vektoru 18
+print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
+```
 
