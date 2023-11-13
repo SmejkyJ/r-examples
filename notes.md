@@ -10,7 +10,8 @@ my_value <- 5
 5 -> my_value
 ```
 *Zde zavádíme novou proměnnou my_value s inicializeční hodnotou 5. Všechny 3 řádky dělají stejnou věc, jde pouze o způsob zápisu.*
-*Proměnná může v programovacím jazyku R měnit kdykoli během vykonávání měnit svůj datový typ viz. [Základní datové typy](#Základní-datové-typy)
+
+*Proměnná může v programovacím jazyku R měnit kdykoli během vykonávání měnit svůj datový typ viz. [Základní datové typy](#Základní-datové-typy)*
 ___
 ## Základní datové typy
 *Toto je u programovacího jazyku R ošetřeno samopřetypovávání proměnných, tedy to vlastně vědět ani nepotřebuješ, protože to R udělá celé za tebe.*
