@@ -44,7 +44,27 @@ ___
 ## Pokročilé datové typy
 *Toto je potřeba alespoň trochu pochytit, velice důležité na komplexnější problémy*
 ### vector
-*je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
+*vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
+```r
+# příklad deklarace
+
+my_vector <- c(5, 3, 8, 12, 7)
+```
+```r
+# příklad vyčítání, předpokládejme předchozí deklaraci
+
+print(my_vector[1])  # vypíše 5 (protože 5 je na 1. pozici ve vektoru)
+print(my_vector[3])  # vypíše 8 (protože 8 je na 3. pozici ve vektoru)
+```
+```r
+# příklad editace, předpokládejme předchozí deklaraci
+
+print(my_vector[4])  # vypíše 12 (protože 12 je na 4. pozici ve vektoru)
+my_vektor[4] = 18    # zapíše na 4. pozici ve vektoru 18
+print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
+```
+### matrix
+*vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
 ```r
 # příklad deklarace
 
