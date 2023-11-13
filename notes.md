@@ -29,7 +29,7 @@ my_value <- 189       # int
 my_value <- 3.1459    # float
 my_value <- FALSE     # bool
 ```
-*Přetypování (to je to co si R dělá samo)*
+### Přetypování (to je to co si R dělá samo)
 
 *Lze změnit datový typ, přiřazením hodnoty, která neodpovídá aktuálnímu datovému typu*
 ```r
