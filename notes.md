@@ -220,7 +220,8 @@ print(list[[2]]$options[[1]]$text)  # vypíše 6+2x
 ___
 ## Podmíky
 *Používáme je, aby se program mohl rozhodnout na základně nějakých informací*
-*U podmíne k využíváme [relační operátory](#Relační-operátory) a [logické operátory](#Logické-operátory)*.
+
+*U podmínek využíváme [relační operátory](#Relační-operátory) a [logické operátory](#Logické-operátory)*.
 ```r
 # Chceme dělit dvě čísla, ale nevíme, zda by se ve jmenovateli nemohla vyskytnout 0
 # proto zavedeme podmínku, kterou to ošetříme
