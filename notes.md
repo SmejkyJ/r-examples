@@ -14,7 +14,7 @@ my_value <- 5
 *Proměnná může v programovacím jazyku R může kdykoli měnit svůj datový typ viz. [Základní datové typy](#Základní-datové-typy)*
 ___
 ## Základní datové typy
-*Toto je u programovacího jazyku R ošetřeno samopřetypovávání proměnných, tedy to vlastně vědět ani nepotřebuješ, protože to R udělá celé za tebe.*
+*Toto je u programovacího jazyku R ošetřeno samopřetypovávání proměnných, tedy to vlastně vědět ani nepotřebuješ, protože to R udělá celé za tebe. Furt to je teorie, takže je dobré mít alespoň ponětí co se děje.*
 
 *Máme jich hned několik:*
 - string - je textový řetězec
@@ -29,7 +29,7 @@ my_value <- 189       # int
 my_value <- 3.1459    # float
 my_value <- FALSE     # bool
 ```
-*Přetypování*
+*Přetypování (to je to co si R dělá samo)*
 
 *Lze změnit datový typ, přiřazením hodnoty, která neodpovídá aktuálnímu datovému typu*
 ```r
