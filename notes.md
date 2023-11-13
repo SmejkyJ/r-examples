@@ -10,7 +10,7 @@ a <- 5
 ```
 *Zde zavádíme novou proměnnou a s hodnotou 5. Všechny 3 řádky dělají stejnou věc, jde pouze o způsob zápisu*
 
-Je hned několik datových typů:
+*Máme hned několik základních datových typů:*
 - string - je textový řetězec
 - int - je číslo
 - bool - je dvoustavová proměnná (tedy buď TRUE nebo FALSE)
