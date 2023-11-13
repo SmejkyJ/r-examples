@@ -47,7 +47,9 @@ ___
 *vektor je vždy jednorozměrný, velice užitečný pro ukládání jednoduchých řetězců*
 ```r
 # příklad deklarace
+
 # příkazem c()
+
 my_vector <- c(5, 3, 8, 12, 7)
 ```
 ```r
@@ -60,15 +62,19 @@ print(my_vector[3])  # vypíše 8 (protože 8 je na 3. pozici ve vektoru)
 # příklad editace, předpokládejme předchozí deklaraci
 
 print(my_vector[4])  # vypíše 12 (protože 12 je na 4. pozici ve vektoru)
-my_vektor[4] = 18    # zapíše na 4. pozici ve vektoru 18
+my_vektor[4] <- 18   # zapíše na 4. pozici ve vektoru 18
 print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 ```
 ### matrix
 *matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
+
+*Vždy má v sobě celá matice pouze jeden ze základních datových typů viz. [Základní datové typy](#Základní-datové-typy)*
 ```r
 # příklad deklarace
+
 # příkazem matrix(vector, nrow = cislo_radku, ncol = cislo_sloupcu, byrow = bool)
 # byrow je způsob ládování zadaného vektoru do této matice
+
 my_matrix1 <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3, byrow = FALSE)
 my_matrix2 <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 3, byrow = TRUE)
 ```
@@ -89,15 +95,15 @@ my_matrix2 <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), nrow = 4, ncol = 
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
 
-print(my_vector[1])  # vypíše 5 (protože 5 je na 1. pozici ve vektoru)
-print(my_vector[3])  # vypíše 8 (protože 8 je na 3. pozici ve vektoru)
+print(my_matrix1[1,3]) # vypíše 9 (protože 9 je na 1. řádku ve 3. sloupci)
+print(my_matrix1[4,2]) # vypíše 8 (protože 8 je na 4. řádku ve 2. sloupci)
 ```
 ```r
 # příklad editace, předpokládejme předchozí deklaraci
 
-print(my_vector[4])  # vypíše 12 (protože 12 je na 4. pozici ve vektoru)
-my_vektor[4] = 18    # zapíše na 4. pozici ve vektoru 18
-print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
+print(my_matrix1[2,1]) # vypíše 2 (protože 2 je na 2. řádku v 1. sloupci)
+my_matrix1[2,1] <- 36  # zapíše na 2. řádek a 1. sloupec číslo 36
+print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 ```
 - matrix
 - array
