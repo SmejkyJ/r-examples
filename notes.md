@@ -117,9 +117,9 @@ print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 *Zatím se mi to ale nechce popisovat, takže kdyžtak dopíšu později, když bude potřeba. Ono to je totiž už docela složité*
 
 ### list
-*list se ti bude zaručeně hodit, umožňuje identifikovat prvky v něm pomocí slov a né pouze podle souřadnic, jako to bylo u předchozích pokročilejších datových typů*
+*list se ti bude zaručeně hodit (asi nejdůležitěší za všech), umožňuje identifikovat prvky v něm pomocí slov a né pouze podle souřadnic, jako to bylo u předchozích pokročilejších datových typů*
 
-*Může obsahovat více datových typů najednou*
+*Může obsahovat více datových typů najednou viz. [Základní datové typy](#Základní-datové-typy)*
 
 *Lze kombinovat s dalšími pokrožilejšími datovými typy*
 
@@ -128,7 +128,7 @@ print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 
 # příkazem list()
 
-my_list <- list(firstName = "Josef", lastName = "Krátký", age=53, height=172)
+my_list <- list(firstName = "Josef", lastName = "Krátký", age = 53, height = 172)
 ```
 ```r
 # příklad vyčítání, předpokládejme předchozí deklaraci
@@ -138,7 +138,7 @@ print(my_list$age)        # vypíše 53
 
 # další způsob vyčítání
 
-print(my_list[["firstName"]]) # vypíše Josef
+print(my_list[["firstName"]])  # vypíše Josef
 print(my_list[["age"]])        # vypíše 53
 
 # u tohoto způsobu vyřítání však můžeme využít i vyčítání pomocí pozice
@@ -150,8 +150,46 @@ print(my_list[[3]])  # vypíše 53     (protože 53 je napsané v listu na 3. po
 ```r
 # příklad editace, předpokládejme předchozí deklaraci
 
-print(my_list$firstName)    # vypíše Josef
+print(my_list$firstName)      # vypíše Josef
 my_list$firstName <- "Jirka"  # zapíše do firstName Jirka
-print(my_list$firstName)    # vypíše Jirka
+print(my_list$firstName)      # vypíše Jirka
+```
+
+*Tady je příklad složitějšího použití listu:*
+```r
+questions <- list(
+  list(
+    text = "y = x^3+3, derivuj y",
+    options = list(
+      list(text = "3x^2", correct = TRUE),
+      list(text = "2x^2+3x", correct = FALSE),
+      list(text = "(x^4)/4+3x", correct = FALSE),
+      list(text = "2x^2", correct = FALSE)
+    )
+  ),
+  list(
+    text = "y = 6x+2, integruj y",
+    options = list(
+      list(text = "6+2x", correct = FALSE),
+      list(text = "3x^2+2x", correct = TRUE),
+      list(text = "6x^2+2x", correct = FALSE),
+      list(text = "2x^3+2x", correct = FALSE)
+    )
+  )
+)
+```
+*Toto jsou 3 vnořené listy do sebe, ten vnější nemá žádnou identifikaci slovy, tedy budeme nuceni použít identifikaci pomocí pozice*
+```r
+# pokud bych chtěl text 1. otázky:
+
+print(list[[1]]$text)   # vypíše y = x^3+3, derivuj y
+
+# pokud bych chtěl pravdivost 3. odpovědi u 2. otázky
+
+print(list[[2]]$options[[3]]$correct) # vypíše FALSE
+
+# pokud bych chtěl text 1. odpovědi u 2. otátzky
+
+print(list[[2]]$options[[1]]$text)  # vypíše 6+2x
 ```
 
