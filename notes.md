@@ -68,7 +68,7 @@ print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 ### matrix
 *matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
 
-*Vždy má v sobě celá matice pouze jeden ze základních datových typů viz. [Základní datové typy](#Základní-datové-typy)*
+*Vždy obsahuje prvky stejného datového typu viz. [Základní datové typy](#Základní-datové-typy)*
 ```r
 # příklad deklarace
 
@@ -105,6 +105,19 @@ print(my_matrix1[2,1]) # vypíše 2 (protože 2 je na 2. řádku v 1. sloupci)
 my_matrix1[2,1] <- 36  # zapíše na 2. řádek a 1. sloupec číslo 36
 print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 ```
-- matrix
-- array
-- list
+### array
+*pole je n-rozměrné, velice užitečné pro aplikace, kde je potřeba víc než dvě dimenze. (třeba 5 dimenzí)*
+
+*Vždy obsahuje prvky stejného datového typu viz. [Základní datové typy](#Základní-datové-typy)*
+
+*například pro počítání krychle je matice málo rozměrná, proto můžeme použít pole*
+
+*Možná to podle popisu nezní jako věc co by se ti mohla hodit, ale je to užitečné*
+
+*Zatím se mi to ale nechce popisovat, takže kdyžtak dopíšu později, když bude potřeba. Ono to je totiž docela komplexní*
+
+### list
+*list se ti bude zaručeně hodit, umožňuje identifikovat prvky v něm pomocí slov a né pouze podle souřadnic, jako to bylo u předchozích pokročilejších datových typů*
+
+*Může obsahovat více datových typů najednou*
+
