@@ -36,7 +36,7 @@ my_value <- 5
 ```
 *Zde zavádíme novou proměnnou my_value s inicializeční hodnotou 5. Všechny 3 řádky dělají stejnou věc, jde pouze o způsob zápisu.*
 
-*Proměnná může v programovacím jazyku R může kdykoli měnit svůj datový typ viz. [Základní datové typy](#Základní-datové-typy)*
+*Proměnná může v programovacím jazyku R může kdykoli měnit svůj datový typ viz. [základní datové typy](#Základní-datové-typy)*
 ___
 ## Základní datové typy
 *Toto je u programovacího jazyku R ošetřeno samopřetypovávání proměnných, tedy to vlastně vědět ani nepotřebuješ, protože to R udělá celé za tebe. Furt to je teorie, takže je dobré mít alespoň ponětí co se děje.*
@@ -93,7 +93,7 @@ print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 ### matrix
 *matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
 
-*Vždy obsahuje prvky stejného datového typu viz. [Základní datové typy](#Základní-datové-typy)*
+*Vždy obsahuje prvky stejného datového typu viz. [základní datové typy](#Základní-datové-typy)*
 ```r
 # příklad deklarace
 
@@ -133,7 +133,7 @@ print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 ### array
 *pole je n-rozměrné, velice užitečné pro aplikace, kde je potřeba víc než dvě dimenze. (třeba 5 dimenzí)*
 
-*Vždy obsahuje prvky stejného datového typu viz. [Základní datové typy](#Základní-datové-typy)*
+*Vždy obsahuje prvky stejného datového typu viz. [základní datové typy](#Základní-datové-typy)*
 
 *například pro počítání krychle je matice málo rozměrná, proto můžeme použít pole*
 
@@ -144,7 +144,7 @@ print(my_matrix1[2,1]) # vypíše 36 (protože 36 je na 2. řádku v 1. sloupci)
 ### list
 *list se ti bude zaručeně hodit (asi nejdůležitěší za všech), umožňuje identifikovat prvky v něm pomocí slov a né pouze podle souřadnic, jako to bylo u předchozích pokročilejších datových typů*
 
-*Může obsahovat více datových typů najednou viz. [Základní datové typy](#Základní-datové-typy)*
+*Může obsahovat více datových typů najednou viz. [základní datové typy](#Základní-datové-typy)*
 
 *Lze kombinovat s dalšími pokrožilejšími datovými typy*
 
@@ -277,7 +277,8 @@ if (prvek$skupenstvi == "pevné") {
 
 ___
 ## Cykly
-*Jsou velmi potřebné, zvláště, když pracujeme s pokročilejšími datovými typy viz. [Pokročilé datové typy](#Pokročilé-datové-typy)*
+*Jsou velmi potřebné, zvláště, když pracujeme s pokročilejšími datovými typy viz. [pokročilé datové typy](#Pokročilé-datové-typy)*
+
 *Máme dva typy cyklů a to:*
 - while loop
 - for loop
