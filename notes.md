@@ -283,4 +283,5 @@ ___
 - for loop
 
 ### while loop
+* K while cyklu je potřeba porozumět [podmínkám](#Podmínky)*
 ### for loop
