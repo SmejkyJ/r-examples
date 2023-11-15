@@ -305,8 +305,8 @@ while (my_number < 4) {
 
 # Další řádek se ti už nevypíše protože 4 < 4 není pravda
 ```
-*Je potřeba vnímat, že nejprve se koukneme na podmínku s nějakým číslem, potom pokud jsme podmínkou prošli k tomu číslu přičteme jedničku a až pak ho vypisujeme do konzoli. Tedy číslo zobrazené neodpovídá číslu, které bylo v rozhodovací podmínce*
-**
+*Je potřeba vnímat, že nejprve se koukneme na podmínku s nějakým číslem, potom pokud jsme podmínkou prošli k tomu číslu přičteme jedničku a až pak ho vypisujeme do konzoli. Tedy číslo zobrazené neodpovídá číslu, které bylo v rozhodovací podmínce. Z tohoto důvodu se nám vypsala 4 do konzoli*
+
 ### for loop
 ```r
 # Takhle to vypadá
