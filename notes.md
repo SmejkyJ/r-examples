@@ -303,7 +303,7 @@ while (my_number < 4) {
 3 # Tady to samé akorát podmínka byla 2 < 4 což je furt pravda
 4 # Tady to samé akorát podmínka byla 3 < 4 což je furt pravda
 
-# Další řádek se ti už nevypíše protože 4 < 4 není pravda
+# Další řádek (tedy číslo 5) se ti už nevypíše protože 4 < 4 není pravda
 ```
 *Je potřeba vnímat, že nejprve se koukneme na podmínku s nějakým číslem, potom pokud jsme podmínkou prošli k tomu číslu přičteme jedničku a až pak ho vypisujeme do konzoli. Tedy číslo zobrazené neodpovídá číslu, které bylo v rozhodovací podmínce. Z tohoto důvodu se nám vypsala 4 do konzoli*
 
@@ -313,7 +313,7 @@ while (my_number < 4) {
 # while (podmínka) {}
 
 my_number = 0
-while (my_number < 7) {
+while (my_number < 4) {
   my_number = 1+number
   print(my_number);
 }
