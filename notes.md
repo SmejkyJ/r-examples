@@ -297,14 +297,15 @@ while (my_number < 4) {
 ```
 *Toto vypíše do konzoli dohromady 4 řádky*
 ```r
-1 # Toto byl první krok a kouklo se to na podmínku 0 < 4 je pravda,
+1 # Toto byl první krok, kouklo se to na podmínku 0 < 4 což je pravda,
   # tedy se přičetla 1 k my_number a vypsal se tento řádek
-2 # Tady to samé akorát podmínka bylo 1 < 4 což je furt pravda
-3 # Tady to samé akorát podmínka bylo 2 < 4 což je furt pravda
-4 # Tady to samé akorát podmínka bylo 3 < 4 což je furt pravda
+2 # Tady to samé akorát podmínka byla 1 < 4 což je furt pravda
+3 # Tady to samé akorát podmínka byla 2 < 4 což je furt pravda
+4 # Tady to samé akorát podmínka byla 3 < 4 což je furt pravda
 
 # Další řádek se ti už nevypíše protože 4 < 4 není pravda
 ```
+*Je potřeba vnímat, že nejprve se koukneme na podmínku s nějakým číslem, potom pokud jsme podmínkou prošli k tomu číslu přičteme jedničku a až pak ho vypisujeme do konzoli. Tedy číslo zobrazené neodpovídá číslu, které bylo v rozhodovací podmínce*
 **
 ### for loop
 ```r
