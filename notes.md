@@ -284,4 +284,35 @@ ___
 
 ### while loop
 * K while cyklu je potřeba porozumět [podmínkám](#Podmínky)*
+```r
+# Takhle to vypadá
+# while (podmínka) {}
+
+my_number = 0
+while (my_number < 4) {
+  my_number = 1+number
+  print(my_number)
+}
+```
+*Toto vypíše do konzoli dohromady 4 řádky*
+```r
+1 # Toto byl první krok a kouklo se to na podmínku 0 < 4 je pravda,
+  # tedy se přičetla 1 k my_number a vypsal se tento řádek
+2 # Tady to samé akorát podmínka bylo 1 < 4 což je furt pravda
+3 # Tady to samé akorát podmínka bylo 2 < 4 což je furt pravda
+4 # Tady to samé akorát podmínka bylo 3 < 4 což je furt pravda
+
+# Další řádek se ti už nevypíše protože 4 < 4 není pravda
+```
+**
 ### for loop
+```r
+# Takhle to vypadá
+# while (podmínka) {}
+
+my_number = 0
+while (my_number < 7) {
+  my_number = 1+number
+  print(my_number);
+}
+```
