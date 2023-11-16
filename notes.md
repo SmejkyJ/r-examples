@@ -295,7 +295,7 @@ ___
 - while loop
 - for loop
 
-*Cykly používáme, když potřebujeme něco procházet a tím pádem měnit pozici, sčítat/odčítat hodně prvků, nebo cokoli co potřebujeme vykonat několikrát. Využití je spoustu, proto vřele doporuřuji se na tohle společně s [pokročilými datovými typy](#Pokročilé-datové-typy) podívat. Porozumění těmto dvoum tématům je velmi důležité. 
+*Cykly používáme, když potřebujeme něco procházet a tím pádem měnit pozici, sčítat/odčítat hodně prvků, nebo cokoli co potřebujeme vykonat několikrát. Využití je spoustu, proto vřele doporuřuji se na tohle společně s [pokročilými datovými typy](#Pokročilé-datové-typy) podívat. Porozumění těmto dvoum tématům je velmi důležité.*
 
 ### while loop
 *K while cyklu je potřeba porozumět [podmínkám](#Podmínky)*
