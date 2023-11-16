@@ -90,6 +90,18 @@ print(my_vector[4])  # vypíše 12 (protože 12 je na 4. pozici ve vektoru)
 my_vektor[4] <- 18   # zapíše na 4. pozici ve vektoru 18
 print(my_vector[4])  # vypíše 18 (protože 18 je na 4. pozici ve vektoru)
 ```
+
+*Další způsob deklarace vektoru (hodí se to u [cyklů](#Cykly))*
+```r
+# příklad speciální deklarace
+
+my_vektor <- (1:5) # vytvoří vektor s čísly 1, 2, 3, 4 a 5
+
+# ekvivalentní zápis by vypadal takto:
+
+my_vektor <- c(1, 2, 3, 4, 5)
+
+```
 ### matrix
 *matice je vždy dvourozměrná, velice užitečná pro počítání matematických rovnic a analýzy*
 
