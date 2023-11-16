@@ -178,7 +178,7 @@ print(my_list$age)        # vypíše 53
 print(my_list[["firstName"]])  # vypíše Josef
 print(my_list[["age"]])        # vypíše 53
 
-# u tohoto způsobu vyřítání však můžeme využít i vyčítání pomocí pozice
+# u tohoto způsobu vyčítání však můžeme využít i vyčítání pomocí pozice
 # (přistupuj k tomu jako kdyby to byl vektor, způsob je stejný, akorát se to jinak zapisuje)
 
 print(my_list[[1]])  # vypíše Josef  (protože Josef je napsané v listu na 1. pozici)
