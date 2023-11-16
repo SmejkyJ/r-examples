@@ -295,6 +295,8 @@ ___
 - while loop
 - for loop
 
+*Cykly používáme, když potřebujeme něco procházet a tím pádem měnit pozici, sčítat/odčítat hodně prvků, nebo cokoli co potřebujeme vykonat několikrát. Využití je spoustu, proto vřele doporuřuji se na tohle společně s [pokročilými datovými typy](#Pokročilé-datové-typy) podívat. Porozumění těmto dvoum tématům je velmi důležité. 
+
 ### while loop
 *K while cyklu je potřeba porozumět [podmínkám](#Podmínky)*
 ```r
@@ -319,7 +321,12 @@ while (my_number < 4) {
 ```
 *Je potřeba vnímat, že nejprve se koukneme na podmínku s nějakým číslem, potom pokud jsme podmínkou prošli k tomu číslu přičteme jedničku a až pak ho vypisujeme do konzoli. Tedy číslo zobrazené neodpovídá číslu, které bylo v rozhodovací podmínce. Z tohoto důvodu se nám vypsala 4 do konzoli*
 
+*Víc se využívá cyklus for, protože většinou již dopředu víme, kolik průběhů cyklem potřebujeme. While se hodí pokud nevíme kolik průběhů bude*
+
+*!! Bacha na nekonečný while cykly !!*
+
 ### for loop
+*K while cyklu je potřeba porozumět [vektorům](#vector)*
 ```r
 # Takhle to vypadá
 # while (podmínka) {}
